@@ -154,53 +154,27 @@
     ]
   },
   "roleInfo": {
-    "983e9336c2a2": {
-      "data": {
-        "id": "983e9336c2a2",
-        "type": "roles",
-        "links": {
-          "self": "https://rsa3.private.hackerrank.link/api/v2/roles/983e9336c2a2"
-        },
-        "attributes": {
-          "name": ".NET Developer"
-        }
+    "data": {
+      "id": "983e9336c2a2",
+      "type": "roles",
+      "links": {
+        "self": "https://rsa3.private.hackerrank.link/api/v2/roles/983e9336c2a2"
       },
-      "included": [
-        {
-          "id": "3eb9c2cbaeb4",
-          "type": "skills",
-          "links": {
-            "self": "https://rsa3.private.hackerrank.link/api/v2/skills/3eb9c2cbaeb4"
-          },
-          "attributes": {
-            "name": "Distributed Systems Concepts"
-          }
-        }
-      ]
+      "attributes": {
+        "name": ".NET Developer"
+      }
     },
-    "83195ed118bc": {
-      "data": {
-        "id": "83195ed118bc",
-        "type": "roles",
+    "included": [
+      {
+        "id": "3eb9c2cbaeb4",
+        "type": "skills",
         "links": {
-          "self": "https://rsa3.private.hackerrank.link/api/v2/roles/83195ed118bc"
+          "self": "https://rsa3.private.hackerrank.link/api/v2/skills/3eb9c2cbaeb4"
         },
         "attributes": {
-          "name": "Latest Senior Role2"
+          "name": "Distributed Systems Concepts"
         }
-      },
-      "included": [
-        {
-          "id": "050bcdb2c12c",
-          "type": "skills",
-          "links": {
-            "self": "https://rsa3.private.hackerrank.link/api/v2/skills/050bcdb2c12c"
-          },
-          "attributes": {
-            "name": ".NET (Basic)"
-          }
-        }
-      ]
-    }
+      }
+    ]
   }
 }
